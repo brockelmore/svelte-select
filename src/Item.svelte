@@ -28,6 +28,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    font-size: var(--inputFontSize, 12px);
   }
 
   .groupHeader {
