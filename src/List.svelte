@@ -263,6 +263,11 @@
     max-height: var(--listMaxHeight, 250px);
     overflow-y: auto;
     background: var(--listBackground, #fff);
+    left: var(--listLeft, 0px);
+    right: var(--listRight, 0px);
+    top: var(--listTop, 0px);
+    bottom: var(--listBottom, 0px);
+    position: var(--listPosition, relative);
   }
 
   .virtualList {
